@@ -4,20 +4,20 @@ This repo will contain the core of what you will need in order to implement a mi
 
 ## What is this for?
 
-The Fursona Vouch Network is an extension of two schemas: [human.json]() and [fursona schema]().
+The Fursona Vouch Network is an extension of two schemas: [human.json](https://codeberg.org/robida/human.json) and [fursona schema](https://github.com/pyrox0/fursona-schema).
 
 ### Human.json
 
-[human.json's]() goal is to allow users to assert that they are, in fact, real people managing and creating their site content. Its vouching system allows you to create a network of other creators that you can personally vouch for as real people.
+[human.json's](https://codeberg.org/robida/human.json) goal is to allow users to assert that they are, in fact, real people managing and creating their site content. Its vouching system allows you to create a network of other creators that you can personally vouch for as real people.
 
 ### Fursona Schema
 
-[fursona schema]() is a schema designed for you to provide your fursonas' data into an easily parsible data structure. It's a simple method that allows someone to ping a user's site for their fursona information.
+[fursona schema](https://github.com/pyrox0/fursona-schema) is a schema designed for you to provide your fursonas' data into an easily parsible data structure. It's a simple method that allows someone to ping a user's site for their fursona information.
 
 ## How does it work?
 
-1. Using [human.json](), you create a list of websites of friends you personally vouch for as real, actual people you want to support.
-2. Using [fursona.schmea](), you can make your fursona's information publically available for others to view.
+1. Using [human.json](https://codeberg.org/robida/human.json), you create a list of websites of friends you personally vouch for as real, actual people you want to support.
+2. Using [fursona.schmea](https://github.com/pyrox0/fursona-schema), you can make your fursona's information publically available for others to view.
 3. Combining both allows you to implement a system to pull your friends' fursona information and display it on your website, sharing your friends' websites with others automatically!
 
 ## Why use two schemas?
