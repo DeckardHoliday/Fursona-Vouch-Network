@@ -104,7 +104,7 @@ Example Human.json (pulled right from their example):
 ```
 
 3. Make your `human.json` file accessible at `https://your_website.com/human.json`
-4. Make your `fursona.json` file accessible at `https://your_website.com/fursona.json`
+4. Make your `fursona.json` file accessible at `https://your_website.com/.well-known/fursona.json`
 
 5. That's it! You're all set up.
 
