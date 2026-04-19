@@ -22,7 +22,7 @@ export const retrieve_vouches_fursona_data = async (vouches) => {
 
     for ( const vouch in vouches ) {
 
-        const fetch_url = `${vouch.url}/fursona.json`
+        const fetch_url = `${vouch.url}/.well-known/fursona.json`
 
         const fetch_response = await fetch(fetch_url).then((res) => res.json());''
 
